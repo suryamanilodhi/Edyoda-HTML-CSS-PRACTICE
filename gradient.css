@@ -1,0 +1,117 @@
+.gradient1{
+    border:2px solid red;
+    width:400px;
+    height: 300px;
+    margin: 10px;
+    /*comma is most important in between */
+
+    /* by default gradient is from top to bottom */
+    background-image:linear-gradient(pink ,yellow);
+}
+.gradient2{
+    border:2px solid red;
+    width:400px;
+    height: 300px;
+    margin: 10px;
+    /*comma is most important in between */
+
+    /* by default gradient is from top to bottom */
+    /* in this case space is most important between to and top and so on and comma is most important between others */
+    background-image:linear-gradient(to top,pink ,yellow);
+    margin: 10px;
+}
+.gradient3{
+    border:2px solid red;
+    width:400px;
+    height: 300px;
+    margin: 10px;
+    /*comma is most important in between */
+
+    /* by default gradient is from top to bottom */
+    background-image:linear-gradient(to right,pink ,yellow);
+}
+.gradient4{
+    border:2px solid red;
+    width:400px;
+    height: 300px;
+    margin: 10px;
+    /*comma is most important in between */
+
+    /* by default gradient is from top to bottom */
+    background-image:linear-gradient(to bottom,pink ,yellow);
+}
+.gradient5{
+    border:2px solid red;
+    width:400px;
+    height: 300px;
+    margin: 10px;
+    /*comma is most important in between */
+
+    /* by default gradient is from top to bottom */
+    background-image:linear-gradient(to left,pink ,yellow);
+}
+/* to bottom is the bydefault */
+
+.main div{
+display:inline-block;
+}
+/* programmer can also provide degree we caan also do by degree */
+.gradient6{
+    border:2px solid red;
+    width:400px;
+    height: 300px;
+    margin: 10px;
+    /*comma is most important in between */
+/* gradient by degree */
+    
+    background-image:linear-gradient(120deg,pink ,yellow);
+}
+.para1{
+    background-image: linear-gradient(pink,red);
+    margin:10px;
+    padding: 10px;
+}
+.para2{
+    background-image: linear-gradient(pink,green);
+    border:2px dotted black;
+    padding:20px;
+    margin:10px;
+    /* only content box will get gradient */
+    background-clip:content-box;
+}
+.para3{
+
+    background-image: linear-gradient(pink,green);
+    border:2px dotted black;
+    padding:20px;
+    margin:10px;
+    /* only padding box will get gradient */
+    background-clip:paddinng-box;
+}
+.para4{
+    background-image: linear-gradient(pink,green);
+    border:2px dotted black;
+    padding:20px;
+    margin:10px;
+    /* only border box willl get gradient */
+    background-clip:border-box;
+}
+/* now we want gradient only in text */
+.text_gradient{
+    font-size: 100px;
+   background-image:linear-gradient(blue,orange);
+   /* for chorome */
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+   /* for microsoft edge  */
+   -ms-background-clip: text;
+   -ms-text-fill-color: transparent;
+
+   /* for mozila */
+   -moz-background-clip: text;
+   -moz-text-fill-color: transparent;
+
+
+   
+}
