@@ -1,0 +1,55 @@
+.para1{
+    color:blue;
+    font-size: 30px;
+    text-transform: uppercase;
+    /* in upper case all letter in upper case */
+}
+.para2{
+    font-size:30px;
+    color:aqua;
+    /* in lowecases all letter in lower case */
+    text-transform: lowercase;
+}
+.para3{
+    font-size: 25px;
+    color:orange;
+    /* in capitalize first letter is capital */
+    text-transform: capitalize;
+}
+.para4{
+    color:brown;
+    font-size: 30px;
+    text-align: center;
+}
+.para5{
+    color:red;
+    font-size: 30px;
+    text-align: right;
+}
+.para6{
+    color:blue;
+    font-size:30px;
+    text-align: left;
+}
+.para7{
+    color:blue;
+    font-size: 30px;
+    /* all line take samr distance from top  */
+    text-align: justify;
+}
+.para8{
+    font-size: 25px;
+    color:red;
+    /* do not use pixel in line height otherwise text will merge */
+    /* line-height: 2; */
+    /* you can add poiint value as well */
+    line-height: 2.5;
+
+}
+
+.para9{
+      color:blue;
+      font-size:50px;
+      /* text move 50px from statrting */
+      text-indent:50px;
+}
