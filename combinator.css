@@ -1,0 +1,22 @@
+/* decendent selector space use between */
+/* in this case direct and decend child both are selected */
+.main p{
+color:red;
+}
+
+/* child selector */
+.dirct_child>h1{
+    color:blue;
+}
+
+/*adjacent sibling selector */
+/* only h2 will affected */
+h1+h2{
+    color:red;
+}
+
+/*general selector */
+h2~h3{
+    color:red;
+}
+
